@@ -1,0 +1,11 @@
+---
+description: Правила проекта STREET STYLE (Telegram Mini App)
+alwaysApply: true
+---
+- Проект без сборщика: обычные скрипты в `assets/js`, порядок подключения в `index.html` важен (config, data, core, api, views, checkout, events, admin, main).
+- Не переписывай существующую логику без запроса; изменения точечные.
+- Язык интерфейса: русский. Валюта: тенге (₸).
+- Новые стили: `assets/css/`, не добавляй inline-стили в `index.html`.
+- Основной логотип: ProductFlow AI, файлы в `assets/img/logo/`.
+- Данные и схема БД: см. `docs/ARCHITECTURE.md` и `supabase_base.sql`.
+- Supabase: все запросы только через `assets/js/api.js` (объект `SB`). Ключи в `assets/js/config.js`, в коде только anon key, service_role key никогда.

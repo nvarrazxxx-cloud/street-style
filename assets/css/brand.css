@@ -1,0 +1,8 @@
+/* ProductFlow AI: основной логотип (небольшие участки: шапка, подвал, иконка вкладки) */
+.logo .pf-mark{width:28px;height:28px;border-radius:7px;display:block;flex:none;background:#000}
+.pf-foot{display:flex;justify-content:center;padding:28px 16px 8px;opacity:.7}
+.pf-foot img{width:86px;height:auto;border-radius:8px;display:block}
+.ss-logo{display:block;border-radius:50%;object-fit:cover;background:#000;flex:none}
+.hero .ss-logo{margin-bottom:16px}
+.sheet .ss-logo{margin-bottom:10px}
+.empty .ss-logo{margin:0 auto 12px}
